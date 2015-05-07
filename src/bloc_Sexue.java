@@ -25,7 +25,7 @@ public class bloc_Sexue extends objet_Mouvant {
 	// Méthode pour l'affichage
 	
 	public ImageIcon getImage() {
-		if( male == true ){
+		if( this.male == true ){
 			return image1;
 		}
 		else return image2;
@@ -40,7 +40,7 @@ public class bloc_Sexue extends objet_Mouvant {
 	// Gestion du sexe
 	public boolean isMale() {
 		// begin-user-code
-		return male;
+		return this.male;
 		// end-user-code
 	}
 
